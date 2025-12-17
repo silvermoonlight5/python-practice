@@ -15,11 +15,7 @@ def grade(score: int) -> str:
 
 def main() -> None:
 
-   print("grade(95)  =>", grade(95))
 
-   print("grade(72)  =>", grade(72))
-
-   print("grade(120) =>", grade(120))
 
    assert grade(95) == "A"
 

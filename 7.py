@@ -5,9 +5,7 @@ def safe_divide(a: float, b: float) -> float | None:
       return (a/b)
 def main() -> None:
 
-   print("safe_divide(10, 2) =>", safe_divide(10, 2))
-
-   print("safe_divide(10, 0) =>", safe_divide(10, 0))
+  
 
    assert safe_divide(10, 2) == 5.0
 
